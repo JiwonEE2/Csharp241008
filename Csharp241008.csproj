@@ -7,4 +7,24 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Abstract.cs" />
+    <Compile Remove="Generic.cs" />
+    <Compile Remove="Homework1.cs" />
+    <Compile Remove="Inheritance.cs" />
+    <Compile Remove="Interface.cs" />
+    <Compile Remove="Polymorphism.cs" />
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Abstract.cs" />
+    <None Include="Generic.cs" />
+    <None Include="Homework1.cs" />
+    <None Include="Inheritance.cs" />
+    <None Include="Interface.cs" />
+    <None Include="Polymorphism.cs" />
+    <None Include="Program.cs" />
+  </ItemGroup>
+
 </Project>
