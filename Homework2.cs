@@ -1,13 +1,6 @@
 ﻿/*
-	과제 1
-	- 공격, 방어, 움직임 등등 인터페이스를 만들고
-	- 특정 캐릭터(3개)가 상속을 받는다.
-	ㄴ 각각의 캐릭터들이 행동을 수행하는 결과를 출력
-
-	과제 2. 클래스를 활용하여 대전 게임 만들기(프로퍼티 활용)
-	
-	과제 3. 추상클래스와 인터페이스 차이
-	과제 4. 업 vs 다운 캐스팅
+[ 과제 2]
+클래스를 활용하여 대전 게임 만들기(프로퍼티 활용)
 */
 using System;
 using System.Collections.Generic;
@@ -55,12 +48,12 @@ namespace Csharp241008
 
 			while (true)
 			{
-				if(player.hp <= 0)
+				if (player.hp <= 0)
 				{
 					Console.WriteLine($"{monster.name}이 이겼습니다.");
 					break;
 				}
-				else if(monster.hp <= 0)
+				else if (monster.hp <= 0)
 				{
 					Console.WriteLine($"{player.name}이 이겼습니다.");
 					break;
@@ -78,7 +71,6 @@ namespace Csharp241008
 				}
 				monster.Attack(player);
 			}
-			
 		}
 	}
 }
